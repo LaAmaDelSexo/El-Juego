@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="shit01"
+run/main_scene="uid://mfk62eut2h6u"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=240
+window/size/viewport_height=160
 
 [dotnet]
 

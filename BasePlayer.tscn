@@ -8,6 +8,10 @@ size = Vector2(64, 64)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8k3h5"]
 
 [node name="BasePlayer" type="RigidBody2D" unique_id=1851292096]
+collision_layer = 2
+collision_mask = 2
+mass = 0.001
+gravity_scale = 0.0
 
 [node name="PlayerSprite" type="Sprite2D" parent="." unique_id=416172435]
 texture = ExtResource("1_yyr24")

@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://d2qrwrsxw4v0g"]
+
+[ext_resource type="FontFile" uid="uid://bx271dpju6tba" path="res://assets/fonts/Jersey10-Regular.ttf" id="1_37p78"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_64ctp"]
+font = ExtResource("1_37p78")
+font_color = Color(0.27869913, 0.52079856, 0.28117576, 1)
+
+[node name="HUD" type="CanvasLayer" unique_id=479439675]
+
+[node name="Label" type="Label" parent="." unique_id=2054915725]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "Sexo 313"
+label_settings = SubResource("LabelSettings_64ctp")
+horizontal_alignment = 1
+vertical_alignment = 1

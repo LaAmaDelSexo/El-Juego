@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://do45fi6jfhujm"]
+
+[node name="WorldLayer" type="Node2D" unique_id=899203152]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=994745711]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 240.0
+offset_bottom = 160.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.5764706, 1, 1, 1)
+
+[node name="ParallaxTiles" type="TileMapLayer" parent="." unique_id=1039902662]

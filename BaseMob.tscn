@@ -11,9 +11,12 @@ disable_mode = 1
 [node name="MobSprite" type="Sprite2D" parent="." unique_id=2121690829]
 texture = ExtResource("1_jlvhr")
 
-[node name="MobHitbox" type="CollisionShape2D" parent="." unique_id=1787810994]
+[node name="MobHurtbox" type="CollisionShape2D" parent="." unique_id=1787810994]
 visible = false
 shape = SubResource("RectangleShape2D_jiowd")
+
+[node name="MobHitbox" type="CollisionShape2D" parent="." unique_id=222213913]
+visible = false
 
 [node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="." unique_id=1923465152]
 visible = false
