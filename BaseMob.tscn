@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://doky66j8o1o2l"]
+
+[ext_resource type="Texture2D" uid="uid://ct0ccvcwhpegw" path="res://assets/img/sprites/baseMob.png" id="1_jlvhr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jiowd"]
+size = Vector2(64, 64)
+
+[node name="BaseMob" type="RigidBody2D" unique_id=1737979386]
+disable_mode = 1
+
+[node name="MobSprite" type="Sprite2D" parent="." unique_id=2121690829]
+texture = ExtResource("1_jlvhr")
+
+[node name="MobHitbox" type="CollisionShape2D" parent="." unique_id=1787810994]
+visible = false
+shape = SubResource("RectangleShape2D_jiowd")
+
+[node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="." unique_id=1923465152]
+visible = false
