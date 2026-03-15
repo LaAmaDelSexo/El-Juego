@@ -3,17 +3,20 @@
 [ext_resource type="Script" uid="uid://bt15ssjyitw4u" path="res://Main.cs" id="1_cm0pq"]
 [ext_resource type="PackedScene" uid="uid://d2qrwrsxw4v0g" path="res://HUD.tscn" id="1_r0du0"]
 [ext_resource type="PackedScene" uid="uid://5fd3xsfjl4yb" path="res://BasePlayer.tscn" id="2_cm0pq"]
+[ext_resource type="PackedScene" uid="uid://do45fi6jfhujm" path="res://WorldLayer.tscn" id="2_fos0i"]
 [ext_resource type="Texture2D" uid="uid://ct0ccvcwhpegw" path="res://assets/img/sprites/baseMob.png" id="3_fos0i"]
 
 [node name="Main" type="Node" unique_id=1713917005]
 script = ExtResource("1_cm0pq")
 
+[node name="WorldLayer" parent="." unique_id=899203152 instance=ExtResource("2_fos0i")]
+
 [node name="HUD" parent="." unique_id=479439675 instance=ExtResource("1_r0du0")]
 
 [node name="BasePlayer" parent="." unique_id=1851292096 instance=ExtResource("2_cm0pq")]
-position = Vector2(32, 72)
+position = Vector2(32, 176)
 
 [node name="BaseMob" type="Sprite2D" parent="." unique_id=1758373960]
-position = Vector2(176, 40)
+position = Vector2(576, 136)
 texture = ExtResource("3_fos0i")
 centered = false
